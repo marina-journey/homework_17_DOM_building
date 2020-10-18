@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.unit {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.unit.one, 
+.unit.two, 
+.unit.three {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.health {
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.distance {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+}
+
+.character {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pic {
+    width: 100px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.infantryman,
+.pilot,
+.sniper {
+    width: 100%;
+    padding: 10px;
+}
+
