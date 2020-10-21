@@ -4,5 +4,5 @@ const units = [
     new Unit('sniper', 40, 70)
 ];
 
-const squad = new Squad(units, document.querySelector('#squad'));
+const squad = new Squad(units);
 console.log(squad);
